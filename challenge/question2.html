@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Link rel="stylesheet" href="styles.css"></Link>
+</head>
+<body>
+
+    <!-- <div>
+        <h1> Loan Amortization Schedule</h1>
+        <p> Principal : 100,000,000</p>
+        <p> Annual Interest Rate : 35%</p>
+        <p> Duration : 24 months </p>
+    </div>
+
+     You have a principal of 100million, with a rate of 35% and Duration of 24months,
+
+    <div id="amotizationSchedule"></div> -->
+
+    <h2> Loan Payment Schedule</h2>
+    <h4>Principal : 100 million</h4>
+    <h4>Rate : 35%</h4>
+    <h4>Durations : 24 months</h4>
+
+    <a href="index.html" >Home</a>
+
+    <!-- <form id="loanForm">
+
+      <label for="Principal"> Principal: </label>
+      <input type="number" id="principal" name="Principal" required>
+      <br></br>
+
+
+      <label for="Rate"> Rate: </label>
+      <input type="number" id="rate" name="Rate" required>
+      <br></br>
+
+
+
+      <label for="Duration"> Duration: </label>
+      <input type="number" id="duration" name="Duration" required>
+      <br></br>
+
+      <input type="submit" value="Calculate" onclick="calculateAmortizationSchedule()" return false;  >
+
+  </form> -->
+
+
+    <table style="border-collapse: collapse; width: 100%;">
+        <thead>
+          <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black; padding: 8px;">Month</th>
+            <th style="border: 1px solid black; padding: 8px;">Opening Balance</th>
+            <th style="border: 1px solid black; padding: 8px;">Monthly Payment</th>
+            <th style="border: 1px solid black; padding: 8px;">Interest</th>
+            <th style="border: 1px solid black; padding: 8px;">Principal</th>
+            <th style="border: 1px solid black; padding: 8px;">Remaining Balance</th>
+          </tr>
+        </thead>
+        <tbody id="amortizationSchedule"></tbody>
+      </table>
+
+
+
+
+
+
+    <script src="scripts2.js"></script>
+    
+</body>
+</html>
